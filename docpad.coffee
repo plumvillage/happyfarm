@@ -74,6 +74,8 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
+		getDocpadInstance: ->
+			@docpad
 
 	# =================================
 	# Collections
@@ -85,6 +87,25 @@ docpadConfig = {
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
+
+		navmenus: (database) ->
+			database.findAllLive({tags: {$has: 'navmenu'} ,pageOrder: {$exists: true}},{pageOrder:1})
+
+		# big
+		big: (database) ->
+			database.findAllLive({tags: {$has: 'big'} ,pageOrder: {$exists: true}},{pageOrder:1})
+
+		# deck
+		deck: (database) ->
+			database.findAllLive({tags: {$has: 'deck'} ,pageOrder: {$exists: true}},{pageOrder:1})
+
+		# h5slide
+		h5slides: (database) ->
+			database.findAllLive({tags: {$has: 'h5slides'} ,pageOrder: {$exists: true}},{pageOrder:1})
+
+		# impress
+		impress: (database) ->
+			database.findAllLive({tags: {$has: 'impress'} ,pageOrder: {$exists: true}},{pageOrder:1})
 
 	# =================================
 	# DocPad Events
@@ -111,6 +132,9 @@ docpadConfig = {
 			server.use (req,res,next) ->
 				if req.headers.host in oldUrls
 					res.redirect(newUrl+req.url, 301)
+				else if req.url is '/pages/start-en'
+					# Redirect default Getting Started
+					res.redirect('/pages/start',301)
 				else
 					next()
 }

@@ -1,41 +1,50 @@
 {
-	"name": "yui-purecss.docpad",
+	"name": "happyfarm",
 	"version": "0.0.1",
-	"description": "YUI Purecss skeleton for DocPad. Simple, flexible and clean HTML and CSS for popular user interface components and interactions.",
+	"description": "Source code for the Plum Village Happy Farm website",
 	"keywords": [
 		"docpad-skeleton",
 		"docpad",
+		"slide",
+		"html5",
+		"twitter bootstrap",
+		"big",
+		"deck.js",
+		"html5slides",
+		"impress.js",
 		"website",
 		"purecss",
 		"yui purecss"
 	],
-	"author": "Mass Distribution Media <mike@mdm.cm> (http://mdm.cm)",
+	"author": "Plum Village Online Monastery <om@plumvillage.org> (http://pvom.org)",
 	"maintainers": [
-		"Michael D Mooring <mike@mdm.cm> (https://github.com/mikeumus)"
+		"Douglas Bachman <om@plumvillage.org> (https://github.com/brstream)"
 	],
 	"contributors": [
-		"Michael D Mooring <mike@mdm.cm> (https://github.com/mikeumus)"
+		"Douglas Bachman <om@plumvillage.org> (https://github.com/brstream)"
 	],
 	"bugs": {
-		"url": "https://github.com/MassDistributionMedia/yui-purecss.docpad/issues"
+		"url": "https://github.com/plumvillage/happyfarm/issues"
 	},
 	"repository" : {
 		"type" : "git",
-		"url" : "https://github.com/MassDistributionMedia/yui-purecss.docpad.git"
+		"url" : "https://github.com/plumvillage/happyfarm.git"
 	},
 	"engines" : {
 		"node": "0.10",
 		"npm": "1.2"
 	},
 	"dependencies": {
-		"docpad": "6.x",
-		"docpad-plugin-cleanurls": "2.x",
+		"docpad": "~6.50.0",
+		"docpad-plugin-cleanurls": "~2.5.1",
 		"docpad-plugin-coffeescript": "2.x",
-		"docpad-plugin-eco": "2.x",
-		"docpad-plugin-marked": "2.x",
+		"docpad-plugin-eco": "~2.0.2",
+		"docpad-plugin-marked": "~2.1.1",
 		"docpad-plugin-partials": "2.x",
 		"docpad-plugin-related": "2.x",
-		"docpad-plugin-text": "2.x"
+		"docpad-plugin-text": "~2.3.0",
+		"docpad-plugin-stylus": "~2.4.0",
+		"docpad-plugin-coffee": "~2.0.2"
 	},
 	"devDependencies": {
 		"docpad-plugin-livereload": "2.x"

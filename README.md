@@ -20,6 +20,32 @@ Simple, flexible and clean HTML, CSS, for popular user interface components and 
 	npm install
 	docpad run
 	```
+=======
+# Slidepad
+Slidepad makes it easy to create HTML5 slides with major HTML5 slide templates and Docpad server.
+Once You write document in markdown syntax, it becomes HTML5 Slides.
+
+[Demo](http://slidepad.herokuapp.com/)
+
+## Getting Started
+1. quick start
+
+  ``` bash
+  git clone git://github.com/georgeOsdDev/slidepad.git
+  cd slidepad
+  npm install
+  node ./node_modules/docpad/bin/docpad-server
+  ```
+
+1. or install docpad as global command
+
+  ``` bash
+  git clone git://github.com/georgeOsdDev/slidepad.git
+  cd slidepad
+  npm install
+  npm install -g docpad
+  docpad run
+  ```
 
 1. [Open http://localhost:9778/](http://localhost:9778/)
 
@@ -46,3 +72,17 @@ If you are wanting to close-source your website, we'd suggest using the followin
 Other included things such as themes and libraries are likely already licensed by their own invidual licenses, so be sure to respect their licenses too.
 
 Thank You. The DocPad & MDM teams love you. <3
+=======
+* * *
+
+## Dependencies
+
+### flamework
+[Docpad](https://github.com/bevry/docpad)
+[Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+
+### Slide Template
+[big](https://github.com/tmcw/big/)
+[deck.js](http://imakewebthings.com/deck.js/)
+[html5slides](http://code.google.com/p/html5slides/)
+[impress.js](https://github.com/bartaz/impress.js/)

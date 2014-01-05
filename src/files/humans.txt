@@ -3,18 +3,23 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  <SlideInitializer>: <Takeharu Oshida>
+  Site: http://github.com/georgeOsdDev/slideInitializer.docpad
+  Twitter: george_osd
+  Location: Japan
 
 /* THANKS */
-  Names (& URL):
+  bervy (https://github.com/bevry/docpad)
+  tmcw (https://github.com/tmcw/big)
+  bartaz (https://github.com/bartaz/impress.js)
+  imakewebthings (https://github.com/imakewebthings/deck.js)
+  google (http://code.google.com/p/html5slides/)
+  twitter (http://twitter.github.com/bootstrap)
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software:
+  Components: Docpad, Modernizr, jQuery, Twitter-bootstrap
+  Software: big, deck.js, html5slides, impress
 
 
 
