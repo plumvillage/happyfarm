@@ -12,32 +12,32 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://farm.plumvillage.org"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.farm.plumvillage.org',
+				'happyfarm.herokuapp.com'
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "The Plum Village Happy Farm"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Happy Farmers Will Change the World: Buddhist Monks and lay friends in Plum Village, France, bringing mindfulness and organic farming together to transform the lives of children, parents, and all beings.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				Thich Nhat Hanh, Plum Village, organic farming, Zen, mindfulness, education, community, meditation, sustainability, ecology, food, transformation, psychology, permaculture
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Plum Village Happy Farmers"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "happyfarm@plumvillage.org"
 
 			# Styles
 			styles: [
