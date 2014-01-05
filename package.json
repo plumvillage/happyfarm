@@ -1,56 +1,56 @@
 {
-	"name": "happyfarm",
-	"version": "0.0.1",
-	"description": "Source code for the Plum Village Happy Farm website",
-	"keywords": [
-		"docpad-skeleton",
-		"docpad",
-		"slide",
-		"html5",
-		"twitter bootstrap",
-		"big",
-		"deck.js",
-		"html5slides",
-		"impress.js",
-		"website",
-		"purecss",
-		"yui purecss"
-	],
-	"author": "Plum Village Online Monastery <om@plumvillage.org> (http://pvom.org)",
-	"maintainers": [
-		"Douglas Bachman <om@plumvillage.org> (https://github.com/brstream)"
-	],
-	"contributors": [
-		"Douglas Bachman <om@plumvillage.org> (https://github.com/brstream)"
-	],
-	"bugs": {
-		"url": "https://github.com/plumvillage/happyfarm/issues"
-	},
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/plumvillage/happyfarm.git"
-	},
-	"engines" : {
-		"node": "0.10",
-		"npm": "1.2"
-	},
-	"dependencies": {
-		"docpad": "~6.50.0",
-		"docpad-plugin-cleanurls": "~2.5.1",
-		"docpad-plugin-coffeescript": "2.x",
-		"docpad-plugin-eco": "~2.0.2",
-		"docpad-plugin-marked": "~2.1.1",
-		"docpad-plugin-partials": "2.x",
-		"docpad-plugin-related": "2.x",
-		"docpad-plugin-text": "~2.3.0",
-		"docpad-plugin-stylus": "~2.4.0",
-		"docpad-plugin-coffee": "~2.0.2"
-	},
-	"devDependencies": {
-		"docpad-plugin-livereload": "2.x"
-	},
-	"main": "node_modules/docpad/bin/docpad-server",
-	"scripts": {
-		"start": "node_modules/docpad/bin/docpad-server"
-	}
+  "name": "happyfarm",
+  "version": "0.0.1",
+  "description": "Source code for the Plum Village Happy Farm website",
+  "keywords": [
+    "docpad-skeleton",
+    "docpad",
+    "slide",
+    "html5",
+    "twitter bootstrap",
+    "big",
+    "deck.js",
+    "html5slides",
+    "impress.js",
+    "website",
+    "purecss",
+    "yui purecss"
+  ],
+  "author": "Plum Village Online Monastery <om@plumvillage.org> (http://pvom.org)",
+  "maintainers": [
+    "Douglas Bachman <om@plumvillage.org> (https://github.com/brstream)"
+  ],
+  "contributors": [
+    "Douglas Bachman <om@plumvillage.org> (https://github.com/brstream)"
+  ],
+  "bugs": {
+    "url": "https://github.com/plumvillage/happyfarm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plumvillage/happyfarm.git"
+  },
+  "engines": {
+    "node": "0.10",
+    "npm": "1.2"
+  },
+  "dependencies": {
+    "docpad": "~6.59.6",
+    "docpad-plugin-cleanurls": "~2.6.1",
+    "docpad-plugin-coffeescript": "~2.2.3",
+    "docpad-plugin-eco": "~2.0.3",
+    "docpad-plugin-marked": "~2.1.2",
+    "docpad-plugin-partials": "~2.8.1",
+    "docpad-plugin-related": "~2.2.2",
+    "docpad-plugin-text": "~2.3.2",
+    "docpad-plugin-stylus": "~2.5.0",
+    "docpad-plugin-coffee": "~2.0.2"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "~2.5.5"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
+  }
 }

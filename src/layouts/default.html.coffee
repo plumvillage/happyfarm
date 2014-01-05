@@ -33,7 +33,7 @@ html lang: 'en', ->
 		# Always use the latest rendering engine
 		meta 'http-equiv':'X-UA-Compatible', content:'IE=edge,chrome=1'
 
-		# Set our defualt viewport (window size and scaling) for mobile devices
+		# Set our default viewport (window size and scaling) for mobile devices
 		meta name:'viewport', content:'width=device-width, initial-scale=1'
 
 		# SEO: Set our page title that will show up in search engine results
@@ -101,13 +101,8 @@ html lang: 'en', ->
 					'/vendor/impress/css/impress-demo.css'
 				]).toHTML()
 
-			else # default style is twitter-bootstrap
-				text @getBlock('styles').add([
-					'/vendor/twitter-bootstrap/css/bootstrap.css'
-					'/vendor/twitter-bootstrap/css/bootstrap-responsive.css'
-					'/vendor/prettify.css'
-					'/styles/style.css'
-				]).toHTML()
+			else # default style
+				text @getBlock('styles').add(@site.styles).toHTML()
 
 		# -----------------------------
 		# IE conditional comment
@@ -121,6 +116,7 @@ html lang: 'en', ->
 	body ->
 		text @content
 
+		text @getBlock('scripts').add(@site.scripts).toHTML()
 		# additional scripts in body tag are included in each layout
 
 		# Analytics
