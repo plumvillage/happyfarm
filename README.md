@@ -1,3 +1,8 @@
+# The Plum Village Happy Farm website
+#### Source Repository
+
+Happy Farmers Will Change the World: Buddhist Monks and lay friends in Plum Village, France, bringing mindfulness and organic farming together to transform the lives of children, parents, and all beings.
+
 # [YUI Purecss](http://purecss.io/) skeleton for [DocPad](https://github.com/bevry/docpad)
 Simple, flexible and clean HTML, CSS, for popular user interface components and interactions.
 
