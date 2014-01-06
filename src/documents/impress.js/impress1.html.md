@@ -8,6 +8,6 @@ datax: 0
 datay: 0
 datascale: 4
 ---
-##### This slide is offered by
-# [impress.js](https://github.com/bartaz/impress.js/)<sup>*</sup>
-<span class="footnote"><sup>*</sup> no rhyme intended</span>
+Welcome to
+## *The [Plum Village](http://plumvillage.org/) Happy Farm*
+<span class="footnote">We are excited to announce the establishment this year, 2013, of an organic farm in Upper Hamlet.</span>
